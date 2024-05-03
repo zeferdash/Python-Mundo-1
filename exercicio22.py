@@ -1,0 +1,10 @@
+print("Digite o seu nome completo: ")
+nomeCompleto = str(input()).strip()
+nomeMaiusculo = nomeCompleto.upper()
+nomeMinusculo = nomeCompleto.lower()
+primeiroNome = nomeCompleto.split()[0]
+print("Nome Maiusculo: {}".format(nomeMaiusculo))
+print("Nome Minusculo: {}".format(nomeMinusculo))
+print("Seu nome tem ao todo {} letras".format(len(nomeCompleto)-nomeCompleto.count(" ")))
+print("Primeiro nome: {}".format(primeiroNome))
+print("Quantas letras tem o primeiro nome: {}".format(len(primeiroNome)))
